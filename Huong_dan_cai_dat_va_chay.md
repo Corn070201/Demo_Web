@@ -33,7 +33,9 @@ Cập nhật file .env của bạn như sau:
 	DB_DATABASE=shopbanhang //tên database mà bạn đã tạo trước đó
 	DB_USERNAME=root
 	DB_PASSWORD=
---Bước 5: chạy dự án.
+---Bước 5: chạy lệnh
+php artisan key:generate
+---Bước 6: chạy dự án.
 //**Trang bán hàng**//:
 
 localhost/shoplaravel/
